@@ -18,7 +18,7 @@ const Header = () => {
         <h1>Oliver Zdraveski</h1>
         <h2>Front-End Developer</h2>
         <div className='portfolio__header-content-buttons'>
-          <a href="https://www.dropbox.com/s/cp7k9scj8oze6w8/Oliver%20Zdraveski%20CV.pdf?dl=0" target='_blank'><button>Download CV</button></a>
+          <a href="https://www.dropbox.com/s/qe19qi9of3m6yaw/Oliver%20Zdraveski%20CV.pdf?dl=0" target='_blank'><button>Download CV</button></a>
           <a href="#contact"><button>Let`s Talk</button></a>
         </div>
       </div>
