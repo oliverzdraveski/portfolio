@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  --color-blue:#001eff;
+  --color-purple:#8900ff;
+  --color-pink:#ff008d;
+  --color-black:#1c1c1c;
+  --color-white:#ffffff;
+}
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: var(--color-black);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: var(--color-black);
+ opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: var(--color-black);
+ opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--color-black);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--color-black);
+}
+
+::placeholder { /* Most modern browsers support this now. */
+  color: var(--color-black);
+}

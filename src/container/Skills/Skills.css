@@ -1,0 +1,107 @@
+.portfolio__skills {
+    max-width: 100%;
+    height: 100%;
+    background-color: var(--color-black);
+    padding: 7rem;
+    padding-bottom: 20rem;
+}
+
+.portfolio__skills-content {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio__skills-content h2 {
+    font-weight: bold;
+    align-items: center;
+    font-size: 2.25rem;
+    line-height: 2.5rem; 
+    border-bottom-width: 4px;
+    color:var(--color-pink);
+    border-color: #808080;
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+}
+
+.portfolio__skills-content p {
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    border-bottom-width: 4px;
+    color: grey;
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+}
+
+.portfolio__skills-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+
+}
+
+
+.Icons {
+    width: 100%;
+    margin: 32px auto;
+    transition: transform .2s;
+}
+
+
+.Icons:hover {
+    transform: scale(1.5);
+}
+
+
+.portfolio__skills-grid p {
+    margin: 1rem;
+    color: var(--color-white)
+       
+}
+
+.portfolio__skills-grid p:hover {
+  margin: 1rem;
+  color: var(--color-pink);
+     
+}
+
+
+.portfolio__skills-grid img {
+    width: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    
+}
+  
+  @media screen and (max-width: 850px) {
+    .portfolio__header {
+      padding: 2rem;
+    }
+    .portfolio__skills-grid{
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .portfolio__header {
+      padding: 4rem 2rem;
+    }      
+    .portfolio__skills-grid{
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+  

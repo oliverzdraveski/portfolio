@@ -1,0 +1,141 @@
+.portfolio__projects{
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20rem;
+}
+.portfolio__projects-content {
+    width: 100%;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+.portfolio__projects-content h5 {
+    font-size: 16px;
+    padding: 0.2rem;
+    color:#808080;
+}
+
+.portfolio__projects-content h2 {
+    padding: 0.2rem;
+    font-size: 33px;
+    color:var(--color-pink);
+}
+
+.portfolio__projects-container {
+    width: 100%;
+    flex: 1;
+    gap: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio__item {
+    background-color:rgb(32, 31, 39);
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: transform .2s;
+    align-items: center;
+    width: 40%;
+    transform: scale(0.9);
+    color:var(--color-white);
+   
+
+    gap: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+}
+
+.portfolio__item:hover {
+    border-color:var(--color-pink);
+    background: transparent;
+    transform: scale(1);
+}
+
+.portfolio__item h3{
+    color:var(--color-white);
+    flex:1;
+    padding: 4rem;
+
+}
+
+.portfolio__item h3:hover {
+    color:var(--color-pink);
+
+}
+.portfolio__item img {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+}
+
+.portfolio__links {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top:0rem;
+    
+}
+
+.portfolio__links a {
+    flex: 1;
+    background-color:var(--color-purple);
+    color: var(--color-white);
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(8, 11, 161);
+    text-align: center;
+    padding: 0.3rem;
+    transition: box-shadow .3s;
+    
+}
+
+
+@media screen and (max-width: 1150px) {
+    .portfolio__projects-content {
+      flex-direction: column;
+    }
+}
+  
+  @media screen and (max-width: 850px) {
+    .portfolio__projects-container{
+        flex-direction: column;
+        align-items: center;
+      }
+      .portfolio__item {
+        width: 60%;
+      }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .portfolio__item {
+      width: 50%;
+    }      
+    
+}
+    @media screen and (max-width: 450px) {
+        .portfolio__item {
+          width:80%;
+        }      
+        .portfolio__item img{
+            width: 100%;
+        }
+}
+
+
+  
