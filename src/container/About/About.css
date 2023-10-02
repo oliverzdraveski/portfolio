@@ -62,6 +62,9 @@
     .portfolio__about-p {
         flex-direction: column;
   }
+    .paragraph2 {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 550px) {
